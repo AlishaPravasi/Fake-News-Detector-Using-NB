@@ -14,9 +14,11 @@ The goal is to build a model that accurately classifies news articles as either 
 ## Files in this Project
 - **`bestModel.model`**: The best Naive Bayes model found for fake news detection.
 - **`Smaller_sample.csv`**: Dataset used to evaluate the initial four Naive Bayes models (sourced from Kaggle: [Fake News Classification](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)).
-- **`WELFake_Dataset.csv`**: Full dataset with 72,134 news articles/headlines used for training and testing (sourced from Kaggle: [Fake News Classification](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)).
-- **`WELFake_Dataset_Cleaned.csv`**: Cleaned version of the dataset (no special characters, extra spaces, or English stopwords).
 - **`main.py`**: Core script to test models, find the best model, train and test it, and output results with graphs.
+
+## Download the Necessary Dataset From KaggleHub:
+- **`WELFake_Dataset.csv`**: Full dataset with 72,134 news articles/headlines used for training and testing (sourced from Kaggle: [Fake News Classification](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)).
+- **`WELFake_Dataset_Cleaned.csv`**: Cleaned version of the dataset produced by main.py (no special characters, extra spaces, or English stopwords).
 
 ## How to Run
 To execute the fake news detection application, run the following command in your terminal:
